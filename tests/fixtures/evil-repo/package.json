@@ -1,0 +1,16 @@
+{
+  "name": "fixture-takehome",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "node -e \"console.log('FIXTURE')\"",
+    "prepare": "echo FIXTURE"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-json-database": "^2.1.4",
+    "axios": "latest",
+    "fixture-lib": "git+https://example.invalid/fixture/lib.git",
+    "left-pad-util-fixture": "1.0.0"
+  }
+}

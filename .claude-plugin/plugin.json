@@ -1,0 +1,29 @@
+{
+  "name": "repo-audit",
+  "displayName": "Repo Audit",
+  "version": "1.0.0",
+  "description": "Audit an untrusted repo before you run it: fake interview take-homes, recruiter-sent projects, zips. Reads, never executes. Maps autorun points, triages dependencies, hunts remote-code loaders, obfuscation, hidden Unicode and blockchain payloads, checks git history and your machine, returns CLEAN / SUSPICIOUS / MALICIOUS with file:line evidence.",
+  "author": {
+    "name": "Albert Khachikyan",
+    "url": "https://github.com/albkhachikyan"
+  },
+  "homepage": "https://github.com/albkhachikyan/claude-code-repo-audit#readme",
+  "repository": "https://github.com/albkhachikyan/claude-code-repo-audit",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skill",
+    "security",
+    "malware",
+    "supply-chain",
+    "backdoor",
+    "code-audit",
+    "npm",
+    "fake-interview",
+    "contagious-interview",
+    "static-analysis",
+    "devsecops",
+    "agent-skills"
+  ],
+  "icon": "./assets/icon.png"
+}

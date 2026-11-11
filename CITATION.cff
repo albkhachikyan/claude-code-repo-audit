@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Repo Audit: Claude Code skill that checks an untrusted repo for backdoors before you run it"
+abstract: "Audit an untrusted repo before you run it: fake interview take-homes, recruiter-sent projects, zips. Reads, never executes. Maps autorun points, triages dependencies, hunts remote-code loaders, obfuscation, hidden Unicode and blockchain payloads, checks git history and your machine, returns CLEAN / SUSPICIOUS / MALICIOUS with file:line evidence."
+authors:
+  - family-names: Khachikyan
+    given-names: Albert
+    url: "https://github.com/albkhachikyan"
+version: 1.0.0
+date-released: 2026-11-11
+license: MIT
+repository-code: "https://github.com/albkhachikyan/claude-code-repo-audit"
+url: "https://github.com/albkhachikyan/claude-code-repo-audit"
+keywords:
+  - claude-code
+  - skill
+  - security
+  - malware
+  - supply-chain
+  - backdoor
+  - code-audit
+  - npm
+  - fake-interview
+  - contagious-interview
+  - static-analysis
+  - devsecops
+  - agent-skills

@@ -1,0 +1,15 @@
+{
+  "name": "albkhachikyan-repo-audit",
+  "description": "Repo Audit for Claude Code, by Albert Khachikyan",
+  "owner": {
+    "name": "Albert Khachikyan",
+    "url": "https://github.com/albkhachikyan"
+  },
+  "plugins": [
+    {
+      "name": "repo-audit",
+      "source": "./",
+      "description": "Audit an untrusted repo before you run it: fake interview take-homes, recruiter-sent projects, zips. Reads, never executes. Maps autorun points, triages dependencies, hunts remote-code loaders, obfuscation, hidden Unicode and blockchain payloads, checks git history and your machine, returns CLEAN / SUSPICIOUS / MALICIOUS with file:line evidence."
+    }
+  ]
+}

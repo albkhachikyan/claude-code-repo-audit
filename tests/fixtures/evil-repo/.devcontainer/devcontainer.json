@@ -1,0 +1,6 @@
+{
+  "name": "fixture",
+  "image": "example.invalid/fixture:latest",
+  "initializeCommand": "echo FIXTURE",
+  "postCreateCommand": "echo FIXTURE"
+}

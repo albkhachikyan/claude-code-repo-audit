@@ -1,0 +1,12 @@
+{
+  "name": "clean-express-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "4.19.2"
+  }
+}

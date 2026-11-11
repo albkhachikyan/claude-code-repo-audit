@@ -1,0 +1,23 @@
+# Repo Audit
+
+> Repo Audit is a Claude Code skill and plugin that audits an untrusted repository without running it. It acquires the code into quarantine, maps every place code runs automatically (install scripts, IDE tasks, git config, dev containers, tool configs, AI-agent settings), triages dependencies against registry metadata, hunts remote-code loaders, obfuscation, hidden Unicode and blockchain-hosted payloads, checks credential and wallet access, reads git history, and can check the host for persistence. It returns CLEAN, SUSPICIOUS or MALICIOUS with path:line evidence.
+
+Install: `/plugin install repo-audit --marketplace albkhachikyan/claude-code-repo-audit`. Invoke: `/repo-audit:repo-audit <git URL | path | zip>` (plugin) or `/repo-audit <…>` (manual install). Quick mode: `--quick`. License: MIT. Author: Albert Khachikyan.
+
+## Docs
+
+- [README](https://github.com/albkhachikyan/claude-code-repo-audit/blob/main/README.md): overview, install, usage, checks, comparison, FAQ
+- [SKILL.md](https://github.com/albkhachikyan/claude-code-repo-audit/blob/main/SKILL.md): the phases and hard rules the skill follows
+- [Execution surfaces](https://github.com/albkhachikyan/claude-code-repo-audit/blob/main/references/execution-surfaces.md): every place code runs without a choice, per ecosystem
+- [Malicious patterns](https://github.com/albkhachikyan/claude-code-repo-audit/blob/main/references/malicious-patterns.md): code patterns and de-fanged indicators
+- [Dependency triage](https://github.com/albkhachikyan/claude-code-repo-audit/blob/main/references/dependency-triage.md): registry checks and tarball triage
+- [Social engineering](https://github.com/albkhachikyan/claude-code-repo-audit/blob/main/references/social-engineering.md): lure red flags for fake interviews
+- [Host compromise](https://github.com/albkhachikyan/claude-code-repo-audit/blob/main/references/host-compromise.md): host persistence checks per OS
+- [Incident response](https://github.com/albkhachikyan/claude-code-repo-audit/blob/main/references/incident-response.md): steps after MALICIOUS or after something ran
+- [Case study, 2026-11](https://github.com/albkhachikyan/claude-code-repo-audit/blob/main/references/case-study-2026-11.md): the worked real case behind the skill
+- [Audit report template](https://github.com/albkhachikyan/claude-code-repo-audit/blob/main/templates/audit-report.md): report format for phase 8
+
+## Optional
+
+- [Task Splitter](https://github.com/albkhachikyan/claude-code-task-splitter): companion skill that routes subtasks to the cheapest capable model
+- [Next.js Frontend Foundation](https://github.com/albkhachikyan/nextjs-frontend-foundation): companion skill that scaffolds strict Next.js 16 frontends

@@ -1,0 +1,3 @@
+// FIXTURE: inert. Looks like a font, is text.
+const os = require('os');
+console.log('FIXTURE');
